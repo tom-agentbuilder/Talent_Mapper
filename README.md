@@ -65,7 +65,7 @@ flowchart TB
 
     subgraph S3["3. INTELLIGENCE"]
         direction LR
-        I["Local Job Platforms /<br/>Contact Research"]
+        I["Contact<br/>Research"]
         J["Candidate<br/>Outreach"]
         K["Candidate<br/>Intelligence"]
 
@@ -77,6 +77,7 @@ flowchart TB
 
     K --> L["Market Reality<br/>to P&L Owners"]
     K --> M["Candidate<br/>Database"]
+```
 
 ## 1. Define the Competitive Landscape
 
