@@ -2,7 +2,9 @@
 
 ## Demo
 
-[![AI Talent Mapping Demo](https://img.youtube.com/vi/73BS80pkQRE/maxresdefault.jpg)](https://youtu.be/73BS80pkQRE)
+[![▶ Watch the AI Talent Mapping Demo](https://img.youtube.com/vi/73BS80pkQRE/maxresdefault.jpg)](https://youtu.be/73BS80pkQRE)
+
+*Click the image to watch the demo on YouTube.*
 
 **AI-assisted talent mapping for recruiters entering a new market**
 
