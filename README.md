@@ -38,7 +38,7 @@ The resulting candidate database is not the end product. It is a tool for proces
 
 ---
 
-# End-to-End Workflow
+## End-to-End Workflow
 
 ```mermaid
 flowchart TB
