@@ -1,0 +1,257 @@
+{
+  "data": {
+    "id": "Vb6LZkh4EqRlR0Ka9",
+    "userId": "uIC0SYhuxZ6dwKIiq",
+    "name": "linkedin-company-employees",
+    "username": "harvestapi",
+    "description": "Extract all LinkedIn Company employees with filters and detailed profile information, including complete work experience, and more. No cookies or account required. This actor can try to find contact emails.",
+    "isPublic": true,
+    "createdAt": "2025-07-07T23:06:32.523Z",
+    "modifiedAt": "2026-08-24T20:21:21.024Z",
+    "taggedBuilds": {
+      "latest": {
+        "buildId": "dkyNoEUYU6B0NYmwI",
+        "finishedAt": "2026-08-24T20:21:21.024Z",
+        "buildNumberInt": 158,
+        "buildNumber": "0.0.158"
+      }
+    },
+    "stats": {
+      "totalBuilds": 159,
+      "totalRuns": 5475164,
+      "totalUsers": 28687,
+      "totalUsers7Days": 1600,
+      "totalUsers30Days": 5322,
+      "totalUsers90Days": 9480,
+      "lastRunStartedAt": "2026-09-20T10:08:59.665Z",
+      "publicActorRunStats30Days": {
+        "ABORTED": 650,
+        "FAILED": 830,
+        "SUCCEEDED": 961981,
+        "TIMED-OUT": 2099,
+        "TOTAL": 965560
+      },
+      "actorReviewCount": 31,
+      "actorReviewRating": 4.756886045649172,
+      "bookmarkCount": 299
+    },
+    "versions": [
+      {
+        "versionNumber": "0.0",
+        "sourceType": "GIT_REPO",
+        "buildTag": "latest"
+      }
+    ],
+    "defaultRunOptions": {
+      "build": "latest",
+      "timeoutSecs": 15000,
+      "memoryMbytes": 256,
+      "maxItems": null,
+      "maxTotalChargeUsd": null
+    },
+    "exampleRunInput": {
+      "body": "{ \"helloWorld\": 123 }",
+      "contentType": "application/json; charset=utf-8"
+    },
+    "categories": [
+      "LEAD_GENERATION",
+      "SOCIAL_MEDIA",
+      "AUTOMATION"
+    ],
+    "isDeprecated": false,
+    "title": "LinkedIn Company Employees Scraper ✅ No Cookies 📧",
+    "pictureUrl": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/uIC0SYhuxZ6dwKIiq-actor-Vb6LZkh4EqRlR0Ka9-fbfxzn8fNm-b2f828513f21444829a619ce563d4d4e.png",
+    "seoTitle": null,
+    "seoDescription": null,
+    "pricingInfos": [
+      {
+        "pricingModel": "PAY_PER_EVENT",
+        "minimalMaxTotalChargeUsd": null,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "short-profile": {
+              "eventTitle": "Short profile ($4 per 1k)",
+              "eventDescription": "Extract limited profile details ($4 per 1k)",
+              "eventPriceUsd": 0.004
+            },
+            "full-profile": {
+              "eventTitle": "Full profile ($8 per 1k)",
+              "eventDescription": "Extract full profile details ($8 per 1k)",
+              "eventPriceUsd": 0.008
+            },
+            "full-profile-with-email": {
+              "eventTitle": "Full profile + email search ($12 per 1k)",
+              "eventDescription": "Extract full profile details + run email search ($12 per 1k)",
+              "eventPriceUsd": 0.012
+            },
+            "actor-start": {
+              "eventTitle": "Actor start cost",
+              "eventDescription": "Actor start cost",
+              "eventPriceUsd": 0.02
+            }
+          }
+        },
+        "createdAt": "2025-07-07T23:22:17.401Z",
+        "startedAt": "2025-07-07T23:22:17.401Z",
+        "apifyMarginPercentage": 0,
+        "notifiedAboutChangeAt": "2025-07-07T23:35:17.529Z"
+      },
+      {
+        "pricingModel": "PAY_PER_EVENT",
+        "minimalMaxTotalChargeUsd": null,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "short-profile": {
+              "eventTitle": "Short profile ($4 per 1k)",
+              "eventDescription": "Extract limited profile details ($4 per 1k)",
+              "eventPriceUsd": 0.004
+            },
+            "full-profile": {
+              "eventTitle": "Full profile ($8 per 1k)",
+              "eventDescription": "Extract full profile details ($8 per 1k)",
+              "eventPriceUsd": 0.008
+            },
+            "full-profile-with-email": {
+              "eventTitle": "Full profile + email search ($12 per 1k)",
+              "eventDescription": "Extract full profile details + run email search ($12 per 1k)",
+              "eventPriceUsd": 0.012
+            },
+            "actor-start": {
+              "eventTitle": "Actor start cost",
+              "eventDescription": "Actor start cost",
+              "eventPriceUsd": 0.02
+            }
+          }
+        },
+        "createdAt": "2026-01-08T08:18:15.484Z",
+        "startedAt": "2026-01-08T08:18:15.484Z",
+        "apifyMarginPercentage": 0.2,
+        "notifiedAboutChangeAt": "2025-07-07T23:35:17.529Z"
+      },
+      {
+        "minimalMaxTotalChargeUsd": 0.05,
+        "pricingModel": "PAY_PER_EVENT",
+        "isPriceChangeNotificationSuppressed": false,
+        "reasonForChange": "We are adding Apify store discounts!\nBasic profile Business: $0.0015 per result\nFull profile Business: $0.004 per result\n\nAt a larger scale, please contact the Apify sales team to discuss custom pricing: https://apify.com/contact-sales",
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "short-profile": {
+              "eventTitle": "Basic profile",
+              "eventDescription": "Extract limited profile details",
+              "isOneTimeEvent": false,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.003
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.003
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.0025
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.0015
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.0015
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.0015
+                }
+              },
+              "isPrimaryEvent": true
+            },
+            "full-profile": {
+              "eventTitle": "Full profile",
+              "eventDescription": "Extract full profile details",
+              "isOneTimeEvent": false,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.008
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.008
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.006
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.004
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.004
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.004
+                }
+              }
+            },
+            "full-profile-with-email": {
+              "eventTitle": "Full profile + email search",
+              "eventDescription": "Extract full profile details + run email search",
+              "isOneTimeEvent": false,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.012
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.012
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.01
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.008
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.008
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.008
+                }
+              }
+            },
+            "actor-start": {
+              "eventTitle": "Actor start cost",
+              "eventDescription": "Actor start cost",
+              "isOneTimeEvent": false,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.02
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.02
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.02
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.015
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.015
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.015
+                }
+              }
+            }
+          }
+        },
+        "startedAt": "2026-04-13T11:22:05.000Z",
+        "createdAt": "2026-03-30T11:22:06.017Z",
+        "apifyMarginPercentage": 0.2,
+        "notifiedAboutFutureChangeAt": "2026-03-30T11:23:13.841Z"
+      }
+    ],
+    "notice": "NONE",
+    "isCritical": false,
+    "isGeneric": false,
+    "hasNoDataset": false,
+    "isSourceCodeHidden": true,
+    "standbyUrl": null,
+    "actorPermissionLevel": "LIMITED_PERMISSIONS",
+    "readmeSummary": "## LinkedIn Company Employees Mass scraper\n\nA LinkedIn company-employee scraper that discovers and extracts company workforce profiles at scale, applying search filters and batch processing to collect structured profile metadata and enrichments. Operates in multiple profile-scraping modes that trade off depth of profile data vs. enrichment effort (basic profile summary; full profile with complete work experience, education, skills and endorsements; and full profile with an additional email-enrichment step that includes validation checks such as SMTP validation). Applies company lists and search filters (location, job title, industry codes, years at company, years of experience, seniority, function, company headcount and fuzzy/general queries) against LinkedIn search pages, supports pagination and resumable scraping from a specified search page, and offers batch modes for combined or per-company searches to scale across many companies. Produces structured profile records that include identity and public profile links, headlines and summaries, current and prior positions with company affiliations, parsed location data, education, skills/endorsements, recommendations, certifications, projects, profile photo and follower/connection metrics, plus optional email candidates validated via SMTP checks.\n\n## Use cases\n\n- Mass extraction of LinkedIn company employees for a list of companies (company-level workforce harvesting)  \n- Location-filtered discovery of company employees (city/region-specific employee lists)  \n- Job-title and function filtering to find employees by role (strict title filters and fuzzy queries)  \n- Industry, seniority, years-at-company and years-of-experience filtered searches for targeted segmentation  \n- Email enrichment and validation for lead generation, recruitment, and networking",
+    "deploymentKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVm/RGTlfZbJYkMtGoJ7RGOjmtJV2kRYROmb/Gi+iTYJFBOnLHfdvgCOuBoU6FUb5aWO3pdW7/Fpw4JkvexvxUsNuYXyuwfOypaRDU9dQNKRXohUt8MiigwjXNMz2HChrt2SrqfUDEirNm+R5+cFW9phZKPJ7MRPbDcPdW2FdloPHNBAdvmQm3GFUbkyMvslc2BGJbVQLudgQzAhsuCxjcyHgjCdTTLn6mNFAXctk7VajwptvZqxfBwOzve4pDliMPz6eBVSVScUiRsjoiAX2gfO1CFUHFCuqu5MssIz/9EXWN7MssilyXp8yx8VBghVRxI89BUhrBm8vHjio/4YW9 \n"
+  }
+}
