@@ -1,5 +1,9 @@
 # Talent Mapper
 
+## Demo
+
+[![AI Talent Mapping Demo](https://img.youtube.com/vi/73BS80pkQRE/maxresdefault.jpg)](https://youtu.be/73BS80pkQRE)
+
 **AI-assisted talent mapping for recruiters entering a new market**
 
 Talent Mapper is a recruitment intelligence workflow built around **OpenCode + Apify + Python + Google Sheets**.
