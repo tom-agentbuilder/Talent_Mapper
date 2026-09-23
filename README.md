@@ -41,20 +41,42 @@ The resulting candidate database is not the end product. It is a tool for proces
 # End-to-End Workflow
 
 ```mermaid
-flowchart LR
-    A[Target Company List] --> B[LinkedIn Company URL Discovery]
-    B --> C[Apify LinkedIn Employee Scraping]
-    C --> D[Target Profiles]
-    D --> E[LLM Career / Persona Review]
-    E --> F[Sales Manager Pipeline]
-    F --> G[Recruiter Review]
-    G --> H[Internal Database Cross-check]
-    H --> I[Local Job Platforms / Contact Research]
-    I --> J[Candidate Outreach]
-    J --> K[Candidate Intelligence]
-    K --> L[Market Reality to P&L Owners]
-    K --> M[Candidate Database]
-```
+flowchart TB
+
+    subgraph S1["1. DISCOVER"]
+        direction LR
+        A["Target<br/>Companies"]
+        B["LinkedIn<br/>Company URLs"]
+        C["Apify<br/>Employee Scraping"]
+        D["Target<br/>Profiles"]
+
+        A --> B --> C --> D
+    end
+
+    subgraph S2["2. QUALIFY"]
+        direction LR
+        E["LLM Career /<br/>Persona Review"]
+        F["Sales Manager<br/>Pipeline"]
+        G["Recruiter<br/>Review"]
+        H["Internal Database<br/>Cross-check"]
+
+        E --> F --> G --> H
+    end
+
+    subgraph S3["3. INTELLIGENCE"]
+        direction LR
+        I["Local Job Platforms /<br/>Contact Research"]
+        J["Candidate<br/>Outreach"]
+        K["Candidate<br/>Intelligence"]
+
+        I --> J --> K
+    end
+
+    D --> E
+    H --> I
+
+    K --> L["Market Reality<br/>to P&L Owners"]
+    K --> M["Candidate<br/>Database"]
 
 ## 1. Define the Competitive Landscape
 
