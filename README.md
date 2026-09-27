@@ -79,6 +79,51 @@ flowchart TB
     K --> M["Candidate<br/>Database"]
 ```
 
+
+## Use Case: Entering a New Market
+The Business Scenario
+
+An international asset manager is entering the Hong Kong market.
+
+The firm has already obtained its SFC licences and has an established investment platform, including:
+
+Portfolio Managers
+Equity Analysts
+Fixed Income Researchers
+
+The investment capability is already in place.
+
+The immediate challenge is commercial: building the sales team.
+
+The Hiring Challenge
+
+Because the business is entering a new market with a controlled hiring budget, the target is not necessarily experienced senior salespeople.
+
+Instead, the ideal talent profile is:
+
+A high-potential salesperson in their late 20s or early 30s who has recently been promoted into a more senior role.
+
+These candidates may already be working for established asset managers, private banks, securities firms, or other financial institutions in Hong Kong.
+
+The challenge is identifying who they are, where they work, and whether their career trajectory matches the requirement — without spending days manually mapping the market.
+
+Where Talent Mapper Comes In
+
+Talent Mapper gives the recruiter a starting point.
+
+Instead of manually searching competitor organisations one by one, the workflow can:
+
+Target Companies → Map Employees → Identify Relevant Sales Profiles → Apply Hiring Criteria → Export Candidate Map → Recruiter Validation & Outreach
+
+The AI helps narrow a large talent pool into a practical market map based on criteria such as:
+
+Current company
+Current / previous title
+Functional area
+Career progression
+Relevant experience
+Location
+
 ## 1. Define the Competitive Landscape
 
 Start with a list of competitor or comparable companies.
