@@ -2,7 +2,7 @@
 
 ## Demo
 
-[![▶ Watch the AI Talent Mapping Demo](https://img.youtube.com/vi/73BS80pkQRE/maxresdefault.jpg)](https://youtu.be/73BS80pkQRE)
+[![▶ Watch the AI Talent Mapping Demo](https://img.youtube.com/vi/4bBotP5MsWU/maxresdefault.jpg)](https://youtu.be/4bBotP5MsWU)
 
 *Click the image to watch the demo on YouTube.*
 
